@@ -31,6 +31,12 @@ You can install the released version of `ukcovid19` from [CRAN](https://CRAN.R-p
 install.packages("ukcovid19")
 ```
 
+or install from GitHub as follows:
+
+``` r
+remotes::install_github("publichealthengland/coronavirus-dashboard-api-R-sdk")
+```
+
 ### Pagination
 
 Using this SDK will bypass the pagination process. You will always download the entire
