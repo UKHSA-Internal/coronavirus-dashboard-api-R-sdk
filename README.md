@@ -6,10 +6,6 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-# Coronavirus (COVID-19) in the UK - API Service
-
-## Software Development Kit (SDK)
-
 
 This is an R SDK for the COVID-19 API, as published by Public Health England
 on [Coronavirus (COVID-19) in the UK](https://api.coronavirus.data.gov.uk/). 
