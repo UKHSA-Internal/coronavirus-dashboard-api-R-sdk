@@ -127,7 +127,7 @@ print(timestamp)
     [1] "2020-08-02 14:50:59 GMT"
 
 
-To get the latest data by a specific metric, use the \code{latest_by} argument as follows:
+To get the latest data by a specific metric, use the `latest_by` argument as follows:
 
 ``` r
 all_nations = c(
