@@ -1,6 +1,6 @@
 # Coronavirus (COVID-19) in the UK - API Service
 
-## Software Development Kit (SDK)
+## Software Development Kit (SDK) for R
 
 
 <!-- badges: start -->
