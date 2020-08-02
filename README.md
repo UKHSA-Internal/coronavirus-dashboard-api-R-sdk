@@ -54,7 +54,7 @@ library(ukcovid19)
 or simply prepend the function names with `ukcovid19`; for instance:
 
 ``` r
-ukcovid19::get_options
+ukcovid19::get_options()
 ```
 
 ### Examples
