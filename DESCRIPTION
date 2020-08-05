@@ -11,7 +11,7 @@ Authors@R:
     )
 Description: This is an R SDK for the COVID-19 API, as published by Public 
     Health England on Coronavirus (COVID-19) in the UK dashboard. API 
-    documentations are available on the official website: <https://coronavirus.data.gov.uk/>
+    documentations are available on the official website on <https://coronavirus.data.gov.uk/developers-guide>.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
