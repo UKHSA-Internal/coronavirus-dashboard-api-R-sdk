@@ -1,5 +1,5 @@
 Package: ukcovid19
-Title: What the Package Does (One Line, Title Case)
+Title: UK Coronavirus Data API
 Version: 1.1.2
 Authors@R: 
     person(
