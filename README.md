@@ -4,6 +4,7 @@
 
 
 <!-- badges: start -->
+![GitHub](https://img.shields.io/github/license/publichealthengland/coronavirus-dashboard-api-R-sdk)
 <!-- badges: end -->
 
 
