@@ -19,6 +19,9 @@ The endpoint for the data provided using this SDK is:
     https://api.coronavirus.data.gov.uk/v1/data
 
 
+The SDK is also available for [Python](https://github.com/publichealthengland/coronavirus-dashboard-api-python-sdk) 
+and [JavaScript](https://github.com/publichealthengland/coronavirus-dashboard-api-python-sdk).
+
 ## Installation
 
 You can install the released version of `ukcovid19` from [CRAN](https://CRAN.R-project.org) with:
