@@ -3,4 +3,5 @@
 export(get_data)
 export(get_head)
 export(get_options)
+export(get_release_timestamp)
 export(last_update)

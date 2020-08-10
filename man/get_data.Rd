@@ -25,7 +25,7 @@ and combining the results.
 \details{
 For additional information and up-to-date details on arguments
 and what they represent, please visit
-the \href{API documentations}{https://coronavirus.data.gov.uk/developers-guide}.
+the \href{https://coronavirus.data.gov.uk/developers-guide}{API documentations}.
 }
 \examples{
 # We would like to download all cases data at `region` level. 

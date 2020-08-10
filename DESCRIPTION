@@ -1,6 +1,6 @@
 Package: ukcovid19
 Title: UK Coronavirus Data API
-Version: 1.1.2
+Version: 1.2.0
 Authors@R: 
     person(
         given = "Pouria",

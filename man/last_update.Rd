@@ -19,6 +19,24 @@ closure   Timestamp of the last update.
 \description{
 Produces the timestamp for the last update in GMT.
 }
+\details{
+This function supplies the API time - i.e. the time at which the data were
+deployed to the database. Please note that there will always be a difference
+between this time and the timestamp that is displayed on the website, which may
+be accessed via the \code{get_release_timestamp()} function. The website timestamp
+signifies the time at which the data were release to the API, and by extension
+the website.
+
+It may take up to 60 seconds for the data to be updated when the release timestamp
+(\code{get_release_timestamp()}) is updated. This is because the cache must refresh before
+the new data becomes available. The API timestamp (\code{last_update()}), however, is only
+updated when the cache has been refreshed. This means that you can only be certain that
+you are receiving the most up-to-data data when the \code{last_update()} timestamp for your
+specific parameters have been updated.
+
+The output of this function is specific to a combination of \code{filters}
+and \code{structure}.
+}
 \examples{
 query_filters <- c(
    "areaType=region"

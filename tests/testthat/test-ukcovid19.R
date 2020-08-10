@@ -102,3 +102,13 @@ for ( key in names(test_structure) ) {
         expect_equal(key %in% names(data), TRUE)
     )
 }
+
+
+#  get_release_timestamp
+# ----------------------
+timestmap <- get_release_timestamp()
+
+test_that(
+    "Test get_release_timestamp", 
+    expect_equal(typeof(timestamp), "closure")
+)
