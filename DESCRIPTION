@@ -1,18 +1,21 @@
 Package: ukcovid19
-Title: UK Coronavirus Data API
+Title: UK Coronavirus Data 'API'
 Version: 1.2.0
-Authors@R: 
-    person(
+Date: 2020-08-19
+Authors@R: person(
         given = "Pouria",
         family = "Hadjibagheri",
         role = c("aut", "cre"),
         email = "Pouria.Hadjibagheri@phe.gov.uk",
         comment = c(ORCID = "0000-0003-2739-4161")
     )
-Description: This is an R SDK for the COVID-19 API, as published by Public 
-    Health England on Coronavirus (COVID-19) in the UK dashboard. API 
-    documentations are available on the official website on <https://coronavirus.data.gov.uk/developers-guide>.
+Author: Pouria Hadjibagheri [aut, cre]
+Maintainer: Pouria Hadjibagheri <Pouria.Hadjibagheri@phe.gov.uk>
+Description: This is an R Software Programming Kit (SDK) for the 'COVID-19' 'API' (Application Programming Interface), as 
+    published by Public Health England (PHE) on Coronavirus ('COVID-19') in the UK dashboard service. 'API' documentations 
+    are available on the official website on '<https://coronavirus.data.gov.uk/developers-guide>'.
 License: MIT + file LICENSE
+Copyright: Public Health England
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -25,3 +28,5 @@ Imports:
     httr,
     jsonlite
 VignetteBuilder: knitr
+URL: https://coronavirus.data.gov.uk/developers-guide, https://github.com/publichealthengland/coronavirus-dashboard-api-r-sdk/
+BugReports: https://github.com/publichealthengland/coronavirus-dashboard-api-r-sdk/issues

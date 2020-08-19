@@ -90,8 +90,8 @@ cases_and_deaths = list(
     areaCode = "areaCode",
     newCasesByPublishDate = "newCasesByPublishDate",
     cumCasesByPublishDate = "cumCasesByPublishDate",
-    newDeathsByDeathDate = "newDeathsByDeathDate",
-    cumDeathsByDeathDate = "cumDeathsByDeathDate"
+    newDeaths28DaysByPublishDate = "newDeaths28DaysByPublishDate",
+    cumDeaths28DaysByPublishDate = "cumDeaths28DaysByPublishDate"
 )
 ```
 
@@ -107,13 +107,13 @@ data <- get_data(
 print(head(data))
 ```
 
-            date areaName  areaCode newCasesByPublishDate cumCasesByPublishDate  newDeathsByDeathDate cumDeathsByDeathDate
-    1 2020-08-02  England E92000001                   676                262746                    NA                   NA
-    2 2020-08-01  England E92000001                   722                262070                     2                41589
-    3 2020-07-31  England E92000001                   814                261348                    21                41587
-    4 2020-07-30  England E92000001                   812                260534                    26                41566
-    5 2020-07-29  England E92000001                   700                259722                    40                41540
-    6 2020-07-28  England E92000001                   547                259022                    36                41500
+            date areaName  areaCode newCasesByPublishDate cumCasesByPublishDate newDeaths28DaysByPublishDate cumDeaths28DaysByPublishDate
+    1 2020-08-19  England E92000001                   707                277516                           15                        36757
+    2 2020-08-18  England E92000001                   975                276809                           11                        36742
+    3 2020-08-17  England E92000001                   634                275834                            3                        36731
+    4 2020-08-16  England E92000001                   952                275200                            3                        36728
+    5 2020-08-15  England E92000001                   934                274248                            2                        36725
+    6 2020-08-14  England E92000001                  1284                273314                           10                        36723
 
 
 To see the timestamp for the last update, run:
