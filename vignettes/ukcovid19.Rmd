@@ -74,8 +74,8 @@ cases_and_deaths = list(
     areaCode = "areaCode",
     newCasesByPublishDate = "newCasesByPublishDate",
     cumCasesByPublishDate = "cumCasesByPublishDate",
-    newDeathsByDeathDate = "newDeathsByDeathDate",
-    cumDeathsByDeathDate = "cumDeathsByDeathDate"
+    newDeaths28DaysByPublishDate = "newDeaths28DaysByPublishDate",
+    cumDeaths28DaysByPublishDate = "cumDeaths28DaysByPublishDate"
 )
 ```
 
